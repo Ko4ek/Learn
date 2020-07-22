@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Динамическое создание элементов</title>
+  <style>
+    .container {
+      height: 50vh;
+      width: 50vw;
+      border: 1px solid #000;
+      position: relative;
+    }
+
+    .el {
+      background: #ff0000;
+      height: 25px;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="el"></div>
+  </div>
+  <input type="text" class="text"/>
+  <button onclick="createEl()">Создать элемент</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
